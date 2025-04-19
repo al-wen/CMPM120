@@ -13,6 +13,8 @@ class Engine {
         this.output = document.body.appendChild(document.createElement("div"));
         this.actionsContainer = document.body.appendChild(document.createElement("div"));
 
+        this.secretDoorOpened = false;
+
         fetch(storyDataUrl).then(
             (response) => response.json()
         ).then(
