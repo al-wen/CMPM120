@@ -1,0 +1,725 @@
+{
+    "Title": "You Need to Pee",
+    "Credits": "Created by Al Wen (alowwen@ucsc.edu).",
+    "InitialLocation": "Main Room",
+    "Locations": {
+        "Start": {
+            "Body": "You suddenly wake up. You have a very big urge to pee.",
+            "Choices": [
+                {
+                    "Text": "Continue",
+                    "Target": "Main Room"
+                }
+            ]
+        },
+        "Main Room": {
+            "Body": "This is the your room. You have a very big urge to pee.",
+            "Choices": [
+                {
+                    "Text": "Living Room",
+                    "Target": "Living Room"
+                },
+                {
+                    "Text": "Search",
+                    "Target": "SearchRoom"
+                },
+                {
+                    "Text": "Restroom",
+                    "Target": "Lock1"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "Restroom": {
+            "Body": "The toilet is in front of you. You have a very big urge to pee.",
+            "Choices": [
+                {
+                    "Text": "Pee",
+                    "Target": "Win"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "Win": {
+            "Body": "You peed.",
+            "Choices": []
+        },
+        "Give up": {
+            "Body": "You peed. You lose.",
+            "Choices": [
+                {
+                    "Text": "Try again",
+                    "Target": "Start"
+                }
+            ]
+        },
+
+        "Lock1": {
+            "Body": "The restroom is behind this door. \nFind the code to unlock this door. \nCode number 1:",
+            "Choices": [
+                {
+                    "Text": "1",
+                    "Target": "Lock2_WRONG"
+                },
+                {
+                    "Text": "2",
+                    "Target": "Lock2_WRONG"
+                },
+                {
+                    "Text": "3",
+                    "Target": "Lock2_WRONG"
+                },
+                {
+                    "Text": "4",
+                    "Target": "Lock2_WRONG"
+                },
+                {
+                    "Text": "5",
+                    "Target": "Lock2_WRONG"
+                },
+                {
+                    "Text": "6",
+                    "Target": "Lock2_WRONG"
+                },
+                {
+                    "Text": "7",
+                    "Target": "Lock2_WRONG"
+                },
+                {
+                    "Text": "8",
+                    "Target": "Lock2"
+                },
+                {
+                    "Text": "9",
+                    "Target": "Lock2_WRONG"
+                },
+                {
+                    "Text": "0",
+                    "Target": "Lock2_WRONG"
+                },
+                {
+                    "Text": "Exit",
+                    "Target": "Main Room"
+                }
+            ]
+        },
+        "Lock2": {
+            "Body": "The restroom is behind this door. \nFind the code to unlock this door. \nCode number 2:",
+            "Choices": [
+                {
+                    "Text": "1",
+                    "Target": "Lock3_WRONG"
+                },
+                {
+                    "Text": "2",
+                    "Target": "Lock3_WRONG"
+                },
+                {
+                    "Text": "3",
+                    "Target": "Lock3"
+                },
+                {
+                    "Text": "4",
+                    "Target": "Lock3_WRONG"
+                },
+                {
+                    "Text": "5",
+                    "Target": "Lock3_WRONG"
+                },
+                {
+                    "Text": "6",
+                    "Target": "Lock3_WRONG"
+                },
+                {
+                    "Text": "7",
+                    "Target": "Lock3_WRONG"
+                },
+                {
+                    "Text": "8",
+                    "Target": "Lock3_WRONG"
+                },
+                {
+                    "Text": "9",
+                    "Target": "Lock3_WRONG"
+                },
+                {
+                    "Text": "0",
+                    "Target": "Lock3_WRONG"
+                },
+                {
+                    "Text": "Exit",
+                    "Target": "Main Room"
+                }
+            ]
+        },
+        "Lock3": {
+            "Body": "The restroom is behind this door. \nFind the code to unlock this door. \nCode number 3:",
+            "Choices": [
+                {
+                    "Text": "1",
+                    "Target": "FAIL"
+                },
+                {
+                    "Text": "2",
+                    "Target": "FAIL"
+                },
+                {
+                    "Text": "3",
+                    "Target": "FAIL"
+                },
+                {
+                    "Text": "4",
+                    "Target": "FAIL"
+                },
+                {
+                    "Text": "5",
+                    "Target": "FAIL"
+                },
+                {
+                    "Text": "6",
+                    "Target": "FAIL"
+                },
+                {
+                    "Text": "7",
+                    "Target": "FAIL"
+                },
+                {
+                    "Text": "8",
+                    "Target": "FAIL"
+                },
+                {
+                    "Text": "9",
+                    "Target": "FAIL"
+                },
+                {
+                    "Text": "0",
+                    "Target": "Restroom"
+                },
+                {
+                    "Text": "Exit",
+                    "Target": "Main Room"
+                }
+            ]
+        },
+        "Lock2_WRONG": {
+            "Body": "The restroom is behind this door. \nFind the code to unlock this door. \nCode number 2:",
+            "Choices": [
+                {
+                    "Text": "1",
+                    "Target": "Lock3_WRONG"
+                },
+                {
+                    "Text": "2",
+                    "Target": "Lock3_WRONG"
+                },
+                {
+                    "Text": "3",
+                    "Target": "Lock3_WRONG"
+                },
+                {
+                    "Text": "4",
+                    "Target": "Lock3_WRONG"
+                },
+                {
+                    "Text": "5",
+                    "Target": "Lock3_WRONG"
+                },
+                {
+                    "Text": "6",
+                    "Target": "Lock3_WRONG"
+                },
+                {
+                    "Text": "7",
+                    "Target": "Lock3_WRONG"
+                },
+                {
+                    "Text": "8",
+                    "Target": "Lock3_WRONG"
+                },
+                {
+                    "Text": "9",
+                    "Target": "Lock3_WRONG"
+                },
+                {
+                    "Text": "0",
+                    "Target": "Lock3_WRONG"
+                },
+                {
+                    "Text": "Exit",
+                    "Target": "Main Room"
+                }
+            ]
+        },
+        "Lock3_WRONG": {
+            "Body": "The restroom is behind this door. \nFind the code to unlock this door. \nCode number 3:",
+            "Choices": [
+                {
+                    "Text": "1",
+                    "Target": "FAIL"
+                },
+                {
+                    "Text": "2",
+                    "Target": "FAIL"
+                },
+                {
+                    "Text": "3",
+                    "Target": "FAIL"
+                },
+                {
+                    "Text": "4",
+                    "Target": "FAIL"
+                },
+                {
+                    "Text": "5",
+                    "Target": "FAIL"
+                },
+                {
+                    "Text": "6",
+                    "Target": "FAIL"
+                },
+                {
+                    "Text": "7",
+                    "Target": "FAIL"
+                },
+                {
+                    "Text": "8",
+                    "Target": "FAIL"
+                },
+                {
+                    "Text": "9",
+                    "Target": "FAIL"
+                },
+                {
+                    "Text": "0",
+                    "Target": "FAIL"
+                },
+                {
+                    "Text": "Exit",
+                    "Target": "Main Room"
+                }
+            ]
+        },
+        "FAIL": {
+            "Body": "That was not the passcode.",
+            "Choices": [
+                {
+                    "Text": "Return",
+                    "Target": "Main Room"
+                },
+                {
+                    "Text": "Try again",
+                    "Target": "Lock1"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+
+            ]
+        },
+
+        "SearchRoom": {
+            "Body": "Your room consists of your bed and your desk. The room is a bit messy.",
+            "Choices": [
+                {
+                    "Text": "bed",
+                    "Target": "bed"
+                },
+                {
+                    "Text": "desk",
+                    "Target": "desk"
+                },
+                {
+                    "Text": "Go back",
+                    "Target": "Main Room"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "bed": {
+            "Body": "As you search through the bed, you find a bucket.",
+            "Choices": [
+                {
+                    "Text": "bucket",
+                    "Target": "bucket"
+                },
+                {
+                    "Text": "Go back",
+                    "Target": "Main Room"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "bucket": {
+            "Body": "This is a bucket",
+            "Choices": [
+                {
+                    "Text": "Go back",
+                    "Target": "Main Room"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "desk": {
+            "Body": "As you search through your desk, you find a mysterious note and a wallet",
+            "Choices": [
+                {
+                    "Text": "note",
+                    "Target": "note"
+                },
+                {
+                    "Text": "wallet",
+                    "Target": "wallet"
+                },
+                {
+                    "Text": "Go back",
+                    "Target": "Main Room"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "note": {
+            "Body": "The note says: \"Listen, you need to stop right now! Whatever you’re about to do, just don’t! It’s not worth it! I can’t explain why, but if you—\" \nNothing important.",
+            "Choices": [
+                {
+                    "Text": "Go back",
+                    "Target": "desk"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "wallet": {
+            "Body": "There are 8 dollars inside the wallet, which reminds you that the first number of the combination lock: ''8''!",
+            "Choices": [
+                {
+                    "Text": "Go back",
+                    "Target": "desk"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+
+        "Living Room": {
+            "Body": "You are standing in the living room. You need to pee. \nYou can head to the kitchen or your room.",
+            "Choices": [
+                {
+                    "Text": "Search",
+                    "Target": "SearchLivingRoom"
+                },
+                {
+                    "Text": "Room",
+                    "Target": "Main Room"
+                },
+                {
+                    "Text": "Kitchen",
+                    "Target": "Kitchen"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "SecretRoom": {
+            "Body": "There is nothing here.",
+            "Choices": [
+                {
+                    "Text": "Go Back",
+                    "Target": "Living Room"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "SearchLivingRoom": {
+            "Body": "In the living room, there is a couch and a TV.",
+            "Choices": [
+                {
+                    "Text": "couch",
+                    "Target": "couch"
+                },
+                {
+                    "Text": "TV",
+                    "Target": "TV"
+                },
+                {
+                    "Text": "Go back",
+                    "Target": "Living Room"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "couch": {
+            "Body": "As you search through the couch, you find a half-eaten sandwich and a rubber duck.",
+            "Choices": [
+                {
+                    "Text": "eat sandwich",
+                    "Target": "sandwich"
+                },
+                {
+                    "Text": "duck",
+                    "Target": "duck"
+                },
+                {
+                    "Text": "Go back",
+                    "Target": "Living Room"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "sandwich": {
+            "Body": "Why would you do that.",
+            "Choices": [
+                {
+                    "Text": "Go back",
+                    "Target": "couch"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "duck": {
+            "Body": "The rubber duck is old and worn out. You don't remember when you got this.",
+            "Choices": [
+                {
+                    "Text": "Quack the duck",
+                    "Target": "quack"
+                },
+                {
+                    "Text": "Go back",
+                    "Target": "couch"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "quack": {
+            "Body": "As you quack the duck, you suddenly get a flashback of the number of times you've touched grass this week, which reminds you that the third number of the combination lock: ''0''!",
+            "Choices": [
+                {
+                    "Text": "Go back",
+                    "Target": "couch"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "TV": {
+            "Body": "In the living room, you have a modern 55-inch 4K Smart TV mounted on the wall.",
+            "Choices": [
+                {
+                    "Text": "Watch TV.",
+                    "Target": "watch"
+                },
+                {
+                    "Text": "Go back",
+                    "Target": "couch"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "watch": {
+            "Body": "You watched your favorite movie.",
+            "Choices": [
+                {
+                    "Text": "watch again",
+                    "Target": "watch again"
+                },
+                {
+                    "Text": "Go back",
+                    "Target": "couch"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "watch again": {
+            "Body": "You watched your favorite movie again.",
+            "Choices": [
+                {
+                    "Text": "watch again",
+                    "Target": "Give up"
+                },
+                {
+                    "Text": "Go back",
+                    "Target": "couch"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+
+
+
+
+
+        "Kitchen": {
+            "Body": "You enter the kitchen and discover your roommate has left a note on the counter.",
+            "Choices": [
+                {
+                    "Text": "Search",
+                    "Target": "SearchKitchen"
+                },
+                {
+                    "Text": "Room",
+                    "Target": "Main Room"
+                },
+                {
+                    "Text": "Living Room",
+                    "Target": "Living Room"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "SearchKitchen": {
+            "Body": "You search the kitchen.",
+            "Choices": [
+                {
+                    "Text": "note",
+                    "Target": "kitchennote"
+                },
+                {
+                    "Text": "refridgerator",
+                    "Target": "Main Room"
+                },
+                {
+                    "Text": "sink",
+                    "Target": "Living Room"
+                },
+                {
+                    "Text": "Go back",
+                    "Target": "Kitchen"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "kitchennote": {
+            "Body": "The note says \"Why do we have a lock on our restroom\". Not helpful.",
+            "Choices": [
+                {
+                    "Text": "Go back",
+                    "Target": "SearchKitchen"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "refridgerator": {
+            "Body": "The refridgerator is almost empty. There is one carton of milk",
+            "Choices": [
+                {
+                    "Text": "milk",
+                    "Target": "milk"
+                },
+                {
+                    "Text": "Go back",
+                    "Target": "SearchKitchen"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "milk": {
+            "Body": "As you drink the milk, you read the expiration date and then check the date, realizing the milk expired exactly 3 years ago, which reminds you that the second number of the combination lock: ''3''!",
+            "Choices": [
+                {
+                    "Text": "Go back",
+                    "Target": "SearchKitchen"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "sink": {
+            "Body": "The sink is empty.",
+            "Choices": [
+                {
+                    "Text": "wash hands",
+                    "Target": "wash"
+                },
+                {
+                    "Text": "Go back",
+                    "Target": "SearchKitchen"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        },
+        "wash": {
+            "Body": "You washed your hands. Good job.",
+            "Choices": [
+                {
+                    "Text": "wash hands",
+                    "Target": "wash"
+                },
+                {
+                    "Text": "Go back",
+                    "Target": "SearchKitchen"
+                },
+                {
+                    "Text": "Give up",
+                    "Target": "Give up"
+                }
+            ]
+        }
+    }
+}
