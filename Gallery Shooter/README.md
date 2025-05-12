@@ -1,5 +1,11 @@
-**1-D Movement**
+**gallery shooter**
 
-Class assignment for CMPM 120 where we explore 1D of movement.
+SHooting game
 
-Uses Kenny Assets "[Shape Characters](https://kenney.nl/assets/shape-characters)" set, with gratitude.
+Uses Kenny Assets:
+
+"https://kenney.nl/assets/input-prompts-pixel-16",
+"https://kenney.nl/assets/1-bit-input-prompts-pixel-16",
+"https://kenney.nl/assets/playing-cards-pack",
+
+with gratitude.
