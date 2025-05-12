@@ -1,0 +1,4 @@
+<TextureAtlas imagePath="tilemap_black_packed.png">
+	<SubTexture name="bullet.png" x="0" y="0" width="16" height="16"/>
+	<SubTexture name="hand.png" x="0" y="0" width="16" height="16"/>
+</TextureAtlas>
