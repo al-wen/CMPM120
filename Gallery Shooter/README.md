@@ -1,6 +1,6 @@
 **gallery shooter**
 
-SHooting game
+Shooting game
 
 Uses Kenny Assets:
 
