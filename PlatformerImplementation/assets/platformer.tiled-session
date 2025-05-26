@@ -1,0 +1,68 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "C:/Users/alwen/OneDrive/Desktop/Code/CMPM120/ParticlePractice/assets/platformer-level-1.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 3,
+            "scaleInEditor": 8
+        },
+        "C:/Users/alwen/OneDrive/Desktop/Code/CMPM120/ParticlePractice/assets/platformer-level-1.tmx": {
+            "scale": 8,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 297.1875,
+                "y": 189.25
+            }
+        },
+        "C:/Users/alwen/OneDrive/Desktop/Code/CMPM120/ParticlePractice/assets/platformer-level-1.tmx#kenny_tilemap_packed": {
+            "scaleInDock": 1
+        },
+        "platformer_level_1.tmj": {
+            "expandedGroupLayers": [
+                5
+            ],
+            "scale": 5.5,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 185,
+                "y": 53.18181818181818
+            }
+        },
+        "platformer_level_1.tmj#tilemap": {
+            "scaleInDock": 3
+        },
+        "platformer_level_1.tmx#tilemap": {
+            "scaleInEditor": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/alwen/OneDrive/Desktop/Code/CMPM120/PlatformerImplementation/assets",
+    "last.imagePath": "C:/Users/alwen/OneDrive/Desktop/Code/CMPM120/PlatformerImplementation/assets",
+    "map.height": 30,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "json",
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "map.width": 150,
+    "openFiles": [
+        "platformer_level_1.tmj",
+        "C:/Users/alwen/OneDrive/Desktop/Code/CMPM120/ParticlePractice/assets/platformer-level-1.tmx"
+    ],
+    "project": "platformer.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "platformer_level_1.tmj",
+        "C:/Users/alwen/OneDrive/Desktop/Code/CMPM120/ParticlePractice/assets/platformer-level-1.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    }
+}
